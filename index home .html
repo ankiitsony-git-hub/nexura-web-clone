@@ -1,0 +1,449 @@
+<!-- work till date i have done , as my mid sem are coming so i have to give some time to that also 
+rest part of the website i will do after my mid sem -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air bnb home</title>
+</head>
+<link rel="icon" type="image/png" href="weblogo.png">
+
+<style>
+
+
+    
+
+    header {
+      display: flex;
+      justify-content: space-between;
+
+      align-items: center;
+
+
+      padding: 10px 20px;
+      border-bottom: 1px solid rgb(205, 200, 200);
+
+      background-color:white;
+    }
+
+   
+
+    
+
+    
+
+    
+    .logo{
+      display: flex;
+      align-items: center;
+
+      gap: 10px;
+
+
+
+
+    }
+
+
+    .logoimg{
+
+      width: 100px;
+      height: 40px;
+
+
+    }
+
+    
+.help{
+
+
+text-decoration: none;
+
+color: #333;
+
+bottom: 70%;
+
+}
+
+
+
+
+
+    .right{
+      display: flex;
+
+      align-items: center;
+
+      gap: 6px;
+
+      border: 1px solid #ddd;
+      border-radius: 30px;
+
+      padding: 6px 10px;
+      cursor: pointer;
+    }
+
+    .Hamburger{
+      font-size: 16px;
+    }
+
+    .usericon {
+      width: 22px;
+
+      height: 22px;
+
+      background-color: #666;
+
+      border-radius: 50%;
+
+      display: inline-block;
+
+    }
+
+.c1 h1 {
+
+   text-align: center;
+}
+
+ 
+   
+
+ .search {
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+      margin: 0 auto;
+
+
+      background: #e7edec;
+      border: none;
+
+      border-radius: 50px;
+
+
+
+      width: 400px;
+      max-width: 90%;
+      padding: 10px 20px;
+
+
+    }
+
+ 
+.search input {
+  border: none;
+  outline: none;
+
+
+  background: transparent;
+  
+}
+
+
+
+    .search{
+
+justify-content: space-between;
+
+
+    }
+
+
+   
+   .search button {
+
+    justify-content: space-between;
+  border: none;
+
+
+  background: #e31c5f;
+  color: white;
+  font-size: 18px;
+
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+
+  cursor: pointer;
+
+
+  transition: 0.2s ease;
+}
+
+.search button:hover {
+  background: #dbd9da;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+.options {
+  display: flex;
+  justify-content: center;    
+
+  gap: 40px;                    
+  margin: 30px auto;            
+
+  text-align: center;
+
+}
+
+.tab {
+  font-size: 18px;
+  
+  cursor: pointer;
+
+
+
+  padding: 10px 20px;
+
+  border-radius: 30px;
+
+}
+
+.tab:hover {
+  background: #f0f0f0;
+  color: #bcb3b6;
+}
+
+
+.help{
+
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      border: 1px solid #e0e0e0;
+
+      border-radius: 15px;
+      padding: 30px 40px;
+      
+      margin: auto;
+      
+      width: 1200px;
+
+}
+
+.help button {
+
+
+      background-color: red;
+      color: #fff;
+    width: 550px;
+
+      border: none;
+      padding: 14px 40px;
+      font-size: 20px;
+
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+      
+    }
+
+.help button:hover {
+      background-color: #bcb3b6;
+    }
+
+
+      .guidecontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     align-content: center;
+
+
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+ #guides h2 {
+      align-items: center;
+     
+     
+     
+      display: flex;
+justify-content: center;
+
+
+    }
+
+.guidecard {
+     
+      border-radius: 10px;
+     
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+     
+      cursor: pointer;
+    }
+
+    .guidecard:hover {
+      text-decoration: none;
+    }
+
+    .guidecard img {
+      width: 100%;
+      height: 180px;
+      border-radius: 30px;
+      object-fit: cover;
+    }
+
+
+
+
+
+    footer{
+
+height: 600px;
+width: 100%;
+background-color: #666;
+    }
+
+
+
+</style>
+
+
+<body>
+    
+<header>
+
+
+<div class="logo">
+     
+      <a href="home"><img src="logoimage.png" alt="Airbnb Logo" class="logoimg"></a>
+
+
+     <a class="helpp" href="help centre"  ><span class="title">Help Centre</span></a>
+
+    </div>
+
+
+
+
+    <div>
+     
+
+
+      <div class="right">
+
+        <span class="icon">🌐</span>
+
+        <span class="Hamburger">☰</span>
+        <span class="usericon"></span>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</header>
+
+
+<main>
+
+<section class="c1">
+    <h1>Hi, how can we help?</h1>
+    <div class="search">
+      <input type="text" placeholder="Search how-tos and more">
+      <button>🔍</button>
+    </div>
+  </section>
+
+
+
+  <div class="options">
+  <a href="tab"><div class="tab">Guest</div></a>
+  <a href="tab"><div class="tab">Home host</div></a>
+  <a href="tab"><div class="tab">Experience host</div></a>
+  <a href="tab"><div class="tab">Service host</div></a>
+  <a href="tab"><div class="tab">Travel admin</div></a>
+</div>
+
+
+
+  <div class="help">
+    <div>
+      <h2>We’re here for you</h2>
+      <p>Log in to get help with your reservations, account, and more.</p>
+    </div>
+    <button>Log in or sign up</button>
+  </div>
+
+
+
+<section id="guides">
+    <h2>Guides for getting started</h2>
+
+    <div class="guidecontainer">
+
+
+     
+
+
+      <div class="guidecard">
+        <img src="GI2.png" alt="I1">
+        <p>AirCover for guests</p>
+      </div>
+
+
+      <div class="guidecard">
+        <img src="GI3.png" alt="I2">
+        <p>Essential resources for new hosts</p>
+      </div>
+
+
+
+      <div class="guidecard">
+        <img src="GI4.png" alt="I3">
+        <p>Getting started as a guest on Airbnb</p>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+
+
+</main>
+
+
+
+<footer>
+
+    working on ........
+
+</footer>
+
+
+</body>
+</html>
